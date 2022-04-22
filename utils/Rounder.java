@@ -1,7 +1,9 @@
 package utils;
 
 public class Rounder {
-        public static void toFixed(double i) {
-        toFixed(2);
-    }
+        public static double rounder(double a) {
+
+            Math.round(a);
+            return a;
+        }
 }

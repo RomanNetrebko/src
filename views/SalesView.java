@@ -36,9 +36,9 @@ public class SalesView extends ProductController {
 
     }
 
-    public SalesView() {
+     public SalesView() {
 
-    }
+     }
     // Здесь, создайте конструктор данного класса,
     // который в параметре содержит переменную типа модели.+
 
@@ -50,7 +50,7 @@ public class SalesView extends ProductController {
 
         System.out.println(title = "Введите наименование товара: ");
         Validator.validateName(scanner);
-        model.getName();
+       model.getName();
 
         // Здесь, реализуйте вывод сообщения о необходимсоти
         // ввода соответствующего значения, валидацью значения
@@ -60,7 +60,7 @@ public class SalesView extends ProductController {
 
         System.out.println(title = "Введите количество: ");
         Validator.validateQuantityInput(scanner);
-        model.getQuantity();
+           model.getQuantity();
         // Здесь, реализуйте вывод сообщения о необходимсоти
         // ввода соответствующего значения, валидацью значения
         // через валидатор, установку валидного значения через модель.

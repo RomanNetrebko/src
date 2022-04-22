@@ -13,14 +13,14 @@ public class App {
 //        Product model = создать экземпляр
 //        SalesView view = создать экземпляр
 //        ProductController controller = создать экземпляр
-        Product product = new Product();
-        SalesView salesView = new SalesView();
-        ProductController productController = new ProductController();
+        Product model = new Product();
+        SalesView view = new SalesView();
+        ProductController controller = new ProductController();
 
 
         // Запуск программы/приложения.
         // Раскомментированный код будет корректным после
         // правильной настройки приложения
-//         controller.runApp();
+        controller.runApp();
     }
 }
